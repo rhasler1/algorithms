@@ -11,7 +11,7 @@ void bst_build_tree(Node** node_array, const unsigned int size)
 {
     int i = 0;
 
-    Node* root = node_array[i];               // get root node & inc 'i' after
+    Node* root = node_array[i];                 // get root node & inc 'i' after
     Node* node;                                 // node to pass to insertion
 
     for (i = 1; i < size; i++) {

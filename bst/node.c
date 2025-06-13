@@ -6,6 +6,8 @@
 
 Node* build_node(int payload)
 {
+    printf("received payload: %d\n", payload);
+
     Node* node = malloc(sizeof(Node));
 
     if (node) {

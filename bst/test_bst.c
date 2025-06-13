@@ -57,3 +57,10 @@ int main(int argc, char *argv[])
     int depth = bst_height(node_array[0]);
     printf("height of root = %d\n", depth);
 }
+
+
+// return 1 on success, 0 on failure
+int test_bst_creation(int *int_array, Node** node_array, int size)
+{
+    
+}
